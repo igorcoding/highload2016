@@ -10,32 +10,37 @@ class: center, middle
 
 ---
 
-# оптимальность
+# супер-оптимальность и производительность
 
----
-
-# винил
-
----
+# дисковое хранилище - винил
 
 # json документы
 
----
-
-# What else&hellip;
 
 ---
 
-# Failover!
+# Что ещё&hellip;
+
+---
+
+class: h-margin, center, middle
+
+.right[
+![image](tarantool1.svg)
+]
+
+## Get your<br> data in RAM
+## .red[Compute<br> close to data]
+## Enjoy the<br> performance
 
 ---
 layout: false
 
-# The road so far
+# О чём мы будем рассказывать?
 
 --
 
-## Что было 3 года назад?
+## Оглянемся назад: что было 3 года назад?
 
 --
 
@@ -58,11 +63,18 @@ layout: false
 ## Оцениваем результат
 
 ---
+class: image-text
 
-# 2013
+.txt[
+# &nbsp;2013 г.
+## первая схема
 
-\[ F ⇾ M ⇽ Ref ] \[ F ⇾ S ⇽ Ref ]
+## классика (M-S)
 
+]
+.svg[
+![sample image](1.svg)
+]
 ---
 
 # Зачем?
@@ -104,12 +116,44 @@ layout: false
 
 # Проблемы?
 
-100% Outage за 1 час
+--
+
+## 25% Outage за 15 минут 
+## 50% Outage за 30 минут 
+## 100% Outage за 1 час
+
+--
+
+## &nbsp;
+
+## 2015 г. - 100% CPU (много бизнес-логики и индексов) 
+## Вторичная логика влияет на основную задачу
+
+---
+class: image
+
+.svg[
+![sample image](1.6.svg)
+]
+
+---
+class:center, middle
+
+# ⓘ
+
+# 3 датацентра 
+# 3 копии
+# MM - репликация 
 
 ---
 class: image-text
 
-.svg[![sample image](raft-base.svg)]
+.txt[
+# Sidenote
+]
+.svg[
+![sample image](raft-base.svg)
+]
 
 ---
 class: h-margin, center, middle
