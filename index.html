@@ -47,7 +47,7 @@
 		font-family: 'Calibri';
 		font-weight: normal;
 		font-size: 30px;
-		padding-right: 100px;
+		padding-right: 50px;
 		padding-left: 50px;
 	}
 
@@ -90,6 +90,39 @@
 		margin-bottom: 20px;		
 	}
 
+	.twocol:after {
+		/*position: relative;*/
+		content: "";
+		display: table;
+		clear: both;
+  	}
+
+	.twocol .l {
+		/*position: relative;*/
+		float:left;
+		width: 50%;
+	}
+	.twocol .r {
+		/*position: relative;*/
+		float:right;
+		width: 50%;
+	}
+	.clear {
+		display: block;
+		clear: both;
+		height:1px;
+	}
+
+	.box {
+		/*border: solid red 3px;*/
+		margin: 20px;
+		padding: 40px;
+	}
+
+	.svg {
+		text-align: center;
+	}
+
 	.image-text .svg {
 		width: 750px;
 		float: left;
@@ -104,9 +137,23 @@
 		/*border:solid black 1px;*/
 	}
 	.image-text .txt {
-		width: 300px;
+		width: 330px;
 		display: block;
 		float: right;
+	}
+	.image-text .txt img, .image-text .txt-center img {
+		width: 270px;
+		display: block;
+		margin: auto;
+	}
+	.image-text .txt-center {
+		width: 330px;
+		display: block;
+		text-align: center;
+		float: right;
+	}
+	.mm1 .txt-center p img {
+		margin-bottom: -50px !important;
 	}
 
 	.firstpage {
@@ -149,6 +196,16 @@
 	.big, .big .remark-code {
 		font-size: 50px;
 	}
+
+	.cluster img {
+		width: 700px;
+	}
+
+	.img100 img {
+		max-width: 100% !important;
+		max-height: 100% !important;
+	}
+
 	.red {
 		color: red;
 	}
@@ -176,12 +233,12 @@
 	}
 	.smallimg {
 		position: absolute;
-		bottom: 40px;
-		right: 120px;
+		bottom: 80px;
+		right: 50px;
 	}
 	.lastquote {
 		position: absolute;
-		bottom: 50px;
+		bottom: 150px;
 		left: 50px;
 
 	}
@@ -189,6 +246,7 @@
 		margin: 0;
 		padding: 0;
 		margin-bottom: 10px;
+		font-weight: bold !important;
 	}
 	.code-size-1 .remark-code {
 		font-size: 24px;
