@@ -558,6 +558,10 @@ end
 ```
 
 
+---
+class:center,middle
+
+# Возможно ли<br>альтернативное решение?
 
 ---
 class:center,middle
