@@ -1,6 +1,6 @@
 class:firstpage
 
-# Отказоустойчивая обработка 10 миллионов<br> OAuth токенов на Tarantool 
+# Отказоустойчивая обработка 10 миллионов<br> OAuth токенов на Tarantool
 
 ### Mons Anderson<br>Игорь Латкин
 
@@ -125,15 +125,15 @@ class: image-text
 
 --
 
-## 25% Outage за 15 минут 
-## 50% Outage за 30 минут 
+## 25% Outage за 15 минут
+## 50% Outage за 30 минут
 ## 100% Outage за 1 час
 
 --
 
 ## &nbsp;
 
-## 2015 г. - 100% CPU (много бизнес-логики и индексов) 
+## 2015 г. - 100% CPU (много бизнес-логики и индексов)
 ## Вторичная логика влияет на основную задачу
 
 ---
@@ -148,7 +148,7 @@ class:center, middle
 
 # ⓘ
 
-# 3 датацентра 
+# 3 датацентра
 # 3 копии
 # MM - репликация
 
@@ -179,9 +179,16 @@ class: image-text
 ]
 
 ---
-class:center, middle
+class:cluster, center
+
 
 # Raft!
+
+<br/><br/>
+
+.img100[
+![i](raft-logo.png)
+]
 
 ---
 class: image-text
@@ -320,7 +327,7 @@ class: twocol, center
 
 ## запросов max
 
-# 1x 
+# 1x
 ]
 
 --
@@ -328,7 +335,7 @@ class: twocol, center
 .r.center[
 # У нас
 
-## связанных нод 
+## связанных нод
 
 # 1
 
@@ -407,7 +414,7 @@ class:center, middle
 ---
 class:center, middle
 
-# А не много 
+# А не много
 # ли соединений?
 
 ---
@@ -415,7 +422,7 @@ class:center, middle
 
 # Проблема Full mesh:
 
-# N<sup>2</sup> соединений 
+# N<sup>2</sup> соединений
 ## N × (N-1)
 
 ---
@@ -602,7 +609,7 @@ class: center, middle
 ##[try.tarantool.org](http://tarantool.org/doc)
 ]
 .left[
-## Try it online: 
+## Try it online:
 ]
 .clear[]
 
@@ -610,7 +617,7 @@ class: center, middle
 ##[github.com/tarantool](http://github.com/tarantool)
 ]
 .left[
-## Explore it: 
+## Explore it:
 ]
 .clear[]
 
