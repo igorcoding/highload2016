@@ -10,9 +10,9 @@ class: center, middle
 
 ---
 
-# супер-оптимальность и производительность
+# супероптимальность и производительность
 
-# дисковое хранилище - винил
+# дисковое хранилище - vinyl
 
 # json документы
 
@@ -21,17 +21,22 @@ class: center, middle
 
 # Что ещё&hellip;
 
+
 ---
+class: center, middle
 
-class: h-margin, center, middle
-
-.right[
-![image](tarantool1.svg)
-]
-
-## Get your<br> data in RAM
-## .red[Compute<br> close to data]
-## Enjoy the<br> performance
+<table width="100%" border="0">
+    <tr>
+        <td><h2>Get your<br>data in RAM</h2></td>
+        <td rowspan="3" width="45%"><img src="tarantool1.svg"/></td>
+    </tr>
+    <tr>
+        <td><h2 style="color:red">Compute<br>close to data</h2></td>
+    </tr>
+    <tr>
+        <td><h2>Enjoy the<br>performance</h2></td>
+    </tr>
+</table>
 
 ---
 layout: false
@@ -63,19 +68,6 @@ layout: false
 ## Оцениваем результат
 
 ---
-class: image-text
-
-.txt[
-# &nbsp;2013 г.
-## первая схема
-
-## классика (M-S)
-
-]
-.svg[
-![sample image](1.svg)
-]
----
 
 # Зачем?
 
@@ -93,9 +85,23 @@ class: image-text
     "token_type"    : "bearer",
     "access_token"  : "XXXXXX",
     "refresh_token" : "YYYYYY",
-    "expires_in"    : "3600"
+    "expires_in"    :  3600
 }
 ```
+]
+
+---
+class: image-text
+
+.txt[
+# &nbsp;2013 г.
+## первая схема
+
+## классика (M-S)
+
+]
+.svg[
+![sample image](1.svg)
 ]
 
 ---
@@ -107,10 +113,11 @@ class: image-text
     "token_type"    : "bearer",
     "access_token"  : "XXXXXX",
     "refresh_token" : "YYYYYY",
-*   "expires_in"    : "3600"
+*   "expires_in"    :  3600
 }
 ```
 ]
+
 
 ---
 
@@ -296,7 +303,7 @@ class: image-text
 ]
 
 .txt-center[
-# рефреш работает и с leader и с abandoned
+# refresher работает и с _leader_ и с _abandoned_
 ]
 
 ---
@@ -567,15 +574,20 @@ class: center, middle
 # Получено очень много опыта при написании собственной реализации Raft
 
 ---
-class: h-margin, center, middle
+class: center, middle
 
-.right[
-![image](tarantool1.svg)
-]
-
-## Get your<br> data in RAM
-## .red[Compute<br> close to data]
-## Enjoy the<br> performance
+<table width="100%" border="0">
+    <tr>
+        <td><h2>Get your<br>data in RAM</h2></td>
+        <td rowspan="3" width="45%"><img src="tarantool1.svg"/></td>
+    </tr>
+    <tr>
+        <td><h2 style="color:red">Compute<br>close to data</h2></td>
+    </tr>
+    <tr>
+        <td><h2>Enjoy the<br>performance</h2></td>
+    </tr>
+</table>
 
 ---
 
